@@ -1,0 +1,17 @@
+.social-container {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+  // border: 1px solid orange;
+}
+
+svg {
+  transform: scale(2);
+  cursor: pointer;
+  transition: all 1s ease;
+
+  &:hover {
+    color: hsl(345, 95%, 68%);
+  }
+}
