@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   width: 50%;
   height: 20vh;
-  // border: 1px solid green;
+  border: 1px solid green;
 }
 
 .unit-container {
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
 
-  //  border: 1px solid greenyellow;
+  //border: 1px solid greenyellow;
 }
 
 .unit-time {
@@ -66,5 +66,22 @@
 
   100% {
     transform: rotateX(180deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .timer-container {
+    width: 90%;
+  }
+  .unit-container {
+    height: 80%;
+    //border: 1px solid red;
+    width: 20%;
+  }
+
+  .unit-time {
+    h1 {
+      font-size: 2.5rem;
+    }
   }
 }

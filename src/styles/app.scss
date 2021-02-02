@@ -63,3 +63,14 @@ body {
 
 @import "social";
 @import "timer";
+
+@media screen and (max-width: 768px) {
+  .header {
+    border: 1px solid red;
+    width: 90%;
+  }
+
+  .App {
+    height: 70vh;
+  }
+}
