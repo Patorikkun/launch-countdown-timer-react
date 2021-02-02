@@ -2,7 +2,9 @@ import React from "react";
 import TimeUnit from "./TimeUnit";
 
 const Timer = () => {
-  const launchDay = new Date(`February 1 2021 00:00:00`);
+  const currentYear = new Date().getFullYear();
+
+  const launchDay = new Date(`February 1 ${currentYear + 1} 00:00:00`);
 
   const currentTime = new Date();
 
